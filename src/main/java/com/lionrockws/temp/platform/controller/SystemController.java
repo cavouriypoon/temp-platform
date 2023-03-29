@@ -17,5 +17,5 @@ public class SystemController {
 		String message=String.format("Service is running at %s", (new Date().toLocaleString()));
 		return new ResponseEntity<>(message,HttpStatus.OK);
 	}
-
+	
 }
